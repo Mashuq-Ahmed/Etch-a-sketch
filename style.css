@@ -1,0 +1,31 @@
+#container {
+
+ display: flex;
+ margin-left: 200px;
+ margin-top: 125px ;
+ 
+}
+
+.box {
+
+    background-color: whitesmoke;
+    border: 2.5px solid rgb(206, 205, 205);
+    padding: 5px;
+    margin-bottom: 0px;
+    height: 5px;
+    width: 5px;
+    transition: background-color 0.15s;
+
+}
+.box:hover {
+    background-color: blue;
+}
+button{
+margin-left: 48%;
+margin-top: 20px;
+border: 2px solid rgb(4, 32, 105);
+border-radius: 5px;;
+background-color: rgb(19, 137, 221);
+font-size: medium;
+
+}
